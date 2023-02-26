@@ -1,0 +1,34 @@
+body {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+li a, li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    color: blue;
+}
+
+/* .boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px 5px 20px; (top, right, bottom, left)
+    margin: 0px 20px; (y-axis, x-axis)
+    width: 33px;
+    height: 55px;
+} */
+
+p {
+    font-size: 10px;
+}
+
+span {
+    font-size: 2em;
+}
