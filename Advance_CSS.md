@@ -12,3 +12,18 @@ CSS Tricks =>
 
 Flexbox froggy => site to practice flexbox
     https://flexboxfroggy.com/
+
+CSS 3 => latest version of CSS
+
+    New addition:
+        transition:
+        transform:
+
+    Previous version of CSS you need to use the following to render box-shadow.
+    -mz = mozilla browser
+    -ms = Microsoft Edge browser
+    -webkit = Chrome & Safari browser
+    -o = opera browser
+
+    visit
+    https://caniuse.com
