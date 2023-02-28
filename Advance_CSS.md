@@ -27,3 +27,30 @@ CSS 3 => latest version of CSS
 
     visit
     https://caniuse.com
+
+Transitions and transform
+    transition-property: [property]; <!-- all, width, height, background etc., -->
+
+    transition-duration: [duration in ms or sec];
+
+    transition-timing-function: [timing-function];
+        ease: gradually speeds up and gradually slows down.
+        ease-in: gradually speeds up.
+        ease-out: starts abruptly then gradually slows down.
+        ease-in-out: gradually speeds up and slows down at the end.
+        linear: constant speed.
+    
+    transition-delay: [duration of delay];
+
+Shorthand transition
+
+    transition: [property] [duration] [timing-function{optional}] [delay{optional}]
+        ex. div {
+                div:hover & {
+                    transform: translateX(200px);
+                }
+            }
+
+            div {
+                transition: all 2s ease-in-out 1s;
+            }
