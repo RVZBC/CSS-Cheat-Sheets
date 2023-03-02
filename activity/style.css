@@ -5,8 +5,7 @@ h1 {
 
 .robots {
 	display: flex;	
-	justify-content: center;
-	flex-wrap: wrap;
+	justify-content: center;	
 }
 
 .head, 
