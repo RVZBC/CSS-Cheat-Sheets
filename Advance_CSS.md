@@ -54,3 +54,7 @@ Shorthand transition
             div {
                 transition: all 2s ease-in-out 1s;
             }
+
+CSS Grid:
+
+ fr => fraction of the free space of the grid container.
