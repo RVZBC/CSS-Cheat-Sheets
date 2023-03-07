@@ -2,9 +2,10 @@ CSS Cheat Sheet
 
 Reference:
 *https://www.w3schools.com/cssref/css_selectors.asp
-*https://css-tricks.com/almanac/
+*https://css-tricks.com/snippets/
 *https://css-diner.netlify.app/
 *https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
+*https://grid.malven.co/
 
 Cascading Style Sheets at the most basic level it indicated that the order of CSS rules matter. Sorted from least important to most important
 
