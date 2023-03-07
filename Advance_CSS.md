@@ -70,7 +70,21 @@ CSS Grid:
 	grid-column-start: 1;
 	grid-column-end: 3;
 
-	shorthand => grid-column: 1/3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+	shorthand => grid-column: start/end;
 	grid-column: 1/-1;
+	grid-column: 1/span 5;
+
+	grid-row: start/end;
+	grid-row: 1/-1;
+	grid-row: 1/span 5;
+
 
 	1/-1 => make content cover from start up to the end of the viewport
+	span => make content cover after the starting point up to assigned number of row/column
+
+	super shorthand => grid-area: row-start/ column-start/ row-end/ column-end;
+
+
