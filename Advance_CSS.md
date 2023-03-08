@@ -66,6 +66,11 @@ CSS Grid:
 		~row => horizontal spaces between contents~
 
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+	grid-template-rows:
+
+	shorthand => grid-template: rows/columns;
+
+
 
 	grid-column-start: 1;
 	grid-column-end: 3;
